@@ -217,5 +217,9 @@ body{
 	display: inline-block;
 }
 
+/* for mobile */
+.mobile-package{
+	display: none;
+}
 
 

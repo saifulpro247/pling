@@ -60,6 +60,9 @@
 		display: none;
 		visibility: hidden;
 	}
+	.mobile-package{
+		display: block;
+	}
 	.mobile-package__tabs button {flex: 1;}
 	.mobile-package__tabs button.active {background: var(--color-primary) !important;color: var(--body-bg);}
 	.mobile-package .tab-content {display: none;}
