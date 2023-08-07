@@ -49,7 +49,7 @@ body{
 	background-color: transparent;
 }
 .bg-hover:hover{
-	background-color: var(--bg-hover) !important;
+	cursor: pointer;
 }
 .package__single.active{
 	background-color: var(--bg-hover) !important;
@@ -217,11 +217,5 @@ body{
 	display: inline-block;
 }
 
-/* only for mobile */
 
-.mobile-package__tabs button {flex: 1;}
-.mobile-package__tabs button.active {background: var(--color-primary) !important;color: var(--body-bg);}
-.mobile-package .tab-content {display: none;}
-.mobile-package .active-tab {display: block;}
-.mobile-package .swiper-pagination-bullet-active {background: var(--color-primary) !important;}
 
