@@ -6,11 +6,12 @@
 	<!-- Me -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
-	<script src="assets/js/modernizr-3.12.0.js"></script>
+	<script src="assets/js/modernizr-3.12.0.min.js"></script>
 	<title>Pling Website</title>
 </head>
 	<body>
@@ -176,7 +177,143 @@
 					</div>
 				</div>
 			</div>
-			<!-- package area end -->
+
+			<!-- only visible for mobile device -->
+			<section class="mobile-package package-type py-5">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="mobile-package__tabs border-radius mb-4 d-flex border-2 justify-content-between">
+								<button class="bg-transparent border-0 tab-header py-2 px-0 active" data-tab="digital">Digital</button>
+								<button class="bg-transparent border-0 tab-header py-2 px-0 " data-tab="digitalplusprint">Digital + Print</button>
+							</div>
+							<div class="tab-content active-tab" id="digital">
+							<!-- Slider main container -->
+							<div class="swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow active">
+											<div class="package_head text-center">
+												<h3 class="package__name fw-bold">Pling Komplet</h3>
+												<p class="package__info">Ubegrænset adgang til Danmarks største magasin app</p>
+											</div>
+											
+			
+											<div class="package__features">
+												<ul class="d-flex flex-column m-0 p-0">
+													<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Adgang til alle Allers magasiner</div></li>
+													<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">300+ internationale magasiner</div></li>
+													<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+												</ul>
+											</div>
+			
+											<div class="package__subscribe-btn d-grid">
+												<a href="#" class="text-white radius-none btn color-primary border-2">99 kr./md.</a>
+												<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow">
+											<div class="package_head text-center">
+												<h3 class="package__name fw-bold">Pling Single</h3>
+												<p class="package__info">Adgang til digital udgave af ugeblad eller magasin</p>
+			
+												<div class="package__select--options mt-2 d-grid">
+													<select name="package-select" id="">
+														<option value="0">Vælg magasin</option>
+														<option value="1">Ude og hjemme</option>
+														<option value="2">SØNDAG</option>
+														<option value="3">SPIS BEDRE</option>
+														<option value="4">CSe & Hør</option>
+														<option value="5">Mad & Bolig</option>
+														<option value="6">femina</option>
+														<option value="7">Familie Journal</option>
+														<option value="8">ELLE</option>
+													</select>
+												</div>
+											</div>
+											
+			
+											<div class="package__features">
+												<ul class="d-flex flex-column m-0 p-0">
+													<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Digital adgang til ét magasin</div></li>
+													<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+												</ul>
+											</div>
+			
+											<div class="package__subscribe-btn d-grid">
+												<a href="#" class="text-white radius-none btn color-primary border-2">49 kr./md.</a>
+												<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- If we need pagination -->
+								<div class="swiper-pagination"></div>
+							</div>
+							</div>
+
+							<div class="tab-content" id="digitalplusprint">
+								<!-- Slider main container -->
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<!-- Slides -->
+										<div class="swiper-slide">
+											<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow">
+												<div class="package_head text-center">
+													<h3 class="package__name fw-bold">Pling Kombi</h3>
+													<p class="package__info">Kombiner dit printabonnement med fuld adgang til Plings danke og internationale magasiner</p>
+												</div>
+												
+				
+												<div class="package__features">
+													<ul class="d-flex flex-column m-0 p-0">
+														<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Adgang til alle Allers magasiner</div></li>
+														<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">300+ internationale magasiner</div></li>
+														<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+													</ul>
+												</div>
+				
+												<div class="package__subscribe-btn d-grid">
+													<a href="#" class="text-white radius-none btn color-primary border-2">99 kr./md.</a>
+													<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow">
+												<div class="package_head text-center">
+													<h3 class="package__name fw-bold">Pling Favorit</h3>
+													<p class="package__info">Gratis adgang til den digitale udgave af dit printabonnement</p>
+												</div>
+												
+				
+												<div class="package__features">
+													<ul class="d-flex flex-column m-0 p-0">
+														<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Digital adgang til ét magasin</div></li>
+														<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+													</ul>
+												</div>
+				
+												<div class="package__subscribe-btn d-grid">
+													<a href="#" class="text-white radius-none btn color-primary border-2">99 kr./md.</a>
+													<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- If we need pagination -->
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- only visible for mobile device end -->
 
 			<!-- package screenshot area -->
 			<section class="screenshot screenshot-bg color-primary py-30">
@@ -207,7 +344,6 @@
 				</div>
 			</section>
 			<!-- package screenshot area end -->
-
 		</main>
 
 		<footer>
@@ -217,6 +353,6 @@
 		<script src="assets/js/Jquery-3.7.0.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.nice-select.min.js"></script>
+		<script src="assets/js/swiper.min.js"></script>
 		<script src="assets/js/main.js"></script>
-	</body>
 </html>

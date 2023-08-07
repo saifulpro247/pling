@@ -160,7 +160,7 @@ body{
 	width: 80%;
 	background-color: #fff;
 	padding: 25px 25px 25px 25px;
-	z-index: 1;
+	z-index: 2;
 	height: 100vh;
 	display: none;
   }
@@ -216,3 +216,12 @@ body{
 	height: 30px;
 	display: inline-block;
 }
+
+/* only for mobile */
+
+.mobile-package__tabs button {flex: 1;}
+.mobile-package__tabs button.active {background: var(--color-primary) !important;color: var(--body-bg);}
+.mobile-package .tab-content {display: none;}
+.mobile-package .active-tab {display: block;}
+.mobile-package .swiper-pagination-bullet-active {background: var(--color-primary) !important;}
+
