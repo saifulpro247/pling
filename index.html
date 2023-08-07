@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Me -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<script src="assets/js/modernizr-3.12.0.js"></script>
+	<title>Pling Website</title>
+</head>
+	<body>
+
+		<header>
+			<div class="header header-bg py-4 box-shadow">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-lg-2 col d-flex justify-content-md-center align-items-center mb-0 mb-lg-0 mb-md-4 ">
+							<div class="site-logo"><a href="#"><img src="assets/img/logo.png" alt="Pling"></a></div>
+						</div>
+						<div class="col-md-12 col-lg-10 col">
+							<div class="header__main--menu d-flex gap-5 justify-content-end align-items-center">
+								<div class="main_menu">
+									<ul class="d-flex gap-3 list-none p-0 m-0">
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Laes Nue</a></li>
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Smagasinar</a></li>
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se magasinar</a></li>
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se ale magasinar</a></li>
+									</ul>
+								</div>
+								<div class="menu_btn d-flex gap-2">
+									<a href="#" class="btn default-btn no-bg border-2 radius-none">My Account</a>
+									<a href="#" class="btn default-btn border-2 radius-none color-primary text-white">New Account</a>
+								</div>
+							</div>
+							<div class="header__mobile--menu d-flex justify-content-end align-items-center d-xl-none d-xxl-none d-lg-none d-sm-flex">
+								<button class="rounded-circle h-f50 w-f50 border-0" id="menu-active"><img src="assets/icon/menu.svg" class="h-28 w-28" alt=""></button>
+							</div>
+							<!-- mobile menu -->
+						</div>
+					</div>
+
+					<div class="mobile_menus">
+						<ul id="">
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Laes Nue</a></li>
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Smagasinar</a></li>
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se magasinar</a></li>
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se ale magasinar</a></li>
+						</ul>
+						<div class="menu_btn d-flex gap-2">
+							<a href="#" class="btn default-btn no-bg border-2 radius-none">My Account</a>
+							<a href="#" class="btn default-btn border-2 radius-none color-primary text-white">New Account</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<main>
+			<!-- package area start -->
+			<div class="package package-area py-5">
+				<div class="container-fluid">
+					<div class="row g-2 lg-g-3 justify-content-center">
+						<!-- single package -->
+						<div class="col-lg-5 col-sm-10 col-md-5 col-xl-3">
+							<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow active">
+								<div class="package_head text-center">
+									<h3 class="package__name fw-bold">Pling Komplet</h3>
+									<p class="package__info">Ubegrænset adgang til Danmarks største magasin app</p>
+								</div>
+								
+
+								<div class="package__features">
+									<ul class="d-flex flex-column m-0 p-0">
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Adgang til alle Allers magasiner</div></li>
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">300+ internationale magasiner</div></li>
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+									</ul>
+								</div>
+
+								<div class="package__subscribe-btn d-grid">
+									<a href="#" class="text-white radius-none btn color-primary border-2">99 kr./md.</a>
+									<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+								</div>
+							</div>
+						</div>
+						<!-- single package end -->
+						<!-- single package -->
+						<div class="col-lg-5 col-sm-10 col-md-5 col-xl-3">
+							<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow">
+								<div class="package_head text-center">
+									<h3 class="package__name fw-bold">Pling Single</h3>
+									<p class="package__info">Adgang til digital udgave af ugeblad eller magasin</p>
+
+									<div class="package__select--options mt-2 d-grid">
+										<select name="package-select" id="">
+											<option value="0">Vælg magasin</option>
+											<option value="1">Ude og hjemme</option>
+											<option value="2">SØNDAG</option>
+											<option value="3">SPIS BEDRE</option>
+											<option value="4">CSe & Hør</option>
+											<option value="5">Mad & Bolig</option>
+											<option value="6">femina</option>
+											<option value="7">Familie Journal</option>
+											<option value="8">ELLE</option>
+										</select>
+									</div>
+								</div>
+								
+
+								<div class="package__features">
+									<ul class="d-flex flex-column m-0 p-0">
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Digital adgang til ét magasin</div></li>
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+									</ul>
+								</div>
+
+								<div class="package__subscribe-btn d-grid">
+									<a href="#" class="text-white radius-none btn color-primary border-2">49 kr./md.</a>
+									<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+								</div>
+							</div>
+						</div>
+						<!-- single package end -->
+						<!-- single package -->
+						<div class="col-lg-5 col-sm-10 col-md-5  col-xl-3">
+							<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow">
+								<div class="package_head text-center">
+									<h3 class="package__name fw-bold">Pling Kombi</h3>
+									<p class="package__info">Kombiner dit printabonnement med fuld adgang til Plings danke og internationale magasiner</p>
+								</div>
+								
+
+								<div class="package__features">
+									<ul class="d-flex flex-column m-0 p-0">
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Adgang til alle Allers magasiner</div></li>
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">300+ internationale magasiner</div></li>
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+									</ul>
+								</div>
+
+								<div class="package__subscribe-btn d-grid">
+									<a href="#" class="text-white radius-none btn color-primary border-2">99 kr./md.</a>
+									<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+								</div>
+							</div>
+						</div>
+						<!-- single package end -->
+						<!-- single package -->
+						<div class="col-lg-5 col-sm-10 col-md-5 col-xl-3">
+							<div class="d-flex flex-column justify-content-between package__single bg-hover border-radius padding-30 transition-one single-height box-shadow">
+								<div class="package_head text-center">
+									<h3 class="package__name fw-bold">Pling Favorit</h3>
+									<p class="package__info">Gratis adgang til den digitale udgave af dit printabonnement</p>
+								</div>
+								
+
+								<div class="package__features">
+									<ul class="d-flex flex-column m-0 p-0">
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Digital adgang til ét magasin</div></li>
+										<li class="p-0 m-0 list-none my-1"><div class="mr-5"><img class="h-20 w-20" src="assets/icon/tik-icon.svg" alt="">Op til 5 brugere</div></li>
+									</ul>
+								</div>
+
+								<div class="package__subscribe-btn d-grid">
+									<a href="#" class="text-white radius-none btn color-primary border-2">99 kr./md.</a>
+									<p class="package__sub text-small text-center mt-2 mb-0">Ingen binding og afmeld når som helst</p>
+								</div>
+							</div>
+						</div>
+						<!-- single package end -->
+					</div>
+				</div>
+			</div>
+			<!-- package area end -->
+
+			<!-- package screenshot area -->
+			<section class="screenshot screenshot-bg color-primary py-30">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="screenshot__text">
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- package screenshot area end -->
+
+		</main>
+
+		<footer>
+			
+		</footer>
+
+		<script src="assets/js/Jquery-3.7.0.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.nice-select.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

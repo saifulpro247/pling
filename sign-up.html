@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Me -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<script src="assets/js/modernizr-3.12.0.js"></script>
+	<title>Pling Website</title>
+</head>
+	<body>
+
+		<header>
+			<div class="header header-bg py-4 box-shadow">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-lg-2 col d-flex justify-content-md-center align-items-center mb-0 mb-lg-0 mb-md-4 ">
+							<div class="site-logo"><a href="#"><img src="assets/img/logo.png" alt="Pling"></a></div>
+						</div>
+						<div class="col-md-12 col-lg-10 col">
+							<div class="header__main--menu d-flex gap-5 justify-content-end align-items-center">
+								<div class="main_menu">
+									<ul class="d-flex gap-3 list-none p-0 m-0">
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Laes Nue</a></li>
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Smagasinar</a></li>
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se magasinar</a></li>
+										<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se ale magasinar</a></li>
+									</ul>
+								</div>
+								<div class="menu_btn d-flex gap-2">
+									<a href="#" class="btn default-btn no-bg border-2 radius-none">My Account</a>
+									<a href="#" class="btn default-btn border-2 radius-none color-primary text-white">New Account</a>
+								</div>
+							</div>
+							<div class="header__mobile--menu d-flex justify-content-end align-items-center d-xl-none d-xxl-none d-lg-none d-sm-flex">
+								<button class="rounded-circle h-f50 w-f50 border-0" id="menu-active"><img src="assets/icon/menu.svg" class="h-28 w-28" alt=""></button>
+							</div>
+							<!-- mobile menu -->
+						</div>
+					</div>
+
+					<div class="mobile_menus">
+						<ul id="">
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Laes Nue</a></li>
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Smagasinar</a></li>
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se magasinar</a></li>
+								<li><a class="primary-color text-decoration-none fw-semibold" href="#">Se ale magasinar</a></li>
+						</ul>
+						<div class="menu_btn d-flex gap-2">
+							<a href="#" class="btn default-btn no-bg border-2 radius-none">My Account</a>
+							<a href="#" class="btn default-btn border-2 radius-none color-primary text-white">New Account</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<main>
+			<!-- package area start -->
+			<div class="signup package package-area sign-up-bg py-5">
+				<div class="container-fluid">
+					<div class="row justify-content-center">
+						<!-- single package -->
+						<div class=" col-md-8 col-sm-10 col-12 col-xl-6 col-lg-7 col-xxl-5">
+							<div class="d-flex flex-column justify-content-between package__single border-radius  transition-one ">
+								<div class="package_head text-center">
+									<h3 class="package__name fw-bold">Opret Din Konto her</h3>
+									<p class="package__info fw-normal">Få abonnement på digital udgave af dit yndlingsmagasin for kun 49 kr./md. eller se alle vores abonnementer <a class="text-underline fw-bold primary-color" href="#">her</a></p>
+								</div>
+								<!-- sign up form -->
+								<form action="#" class="signup__form  mt-4">
+									
+									<div class="package__select--options d-grid py-4 px-4 bg-white normal-shadow mb-2">
+										<select name="package-select" id="">
+											<option value="0">Vælg magasin</option>
+											<option value="1">Ude og hjemme</option>
+											<option value="2">SØNDAG</option>
+											<option value="3">SPIS BEDRE</option>
+											<option value="4">CSe & Hør</option>
+											<option value="5">Mad & Bolig</option>
+											<option value="6">femina</option>
+											<option value="7">Familie Journal</option>
+											<option value="8">ELLE</option>
+										</select>
+									</div>
+									<div class="signup__input-form py-4 px-4 bg-white normal-shadow"">
+										<div class="signup__single--option mb-4">
+											<label for="name" class="d-flex gap-1 align-items-center text-small signup__label">
+												<div class="icon"><img src="assets/icon/person_FILL0_wght400_GRAD0_opsz48.svg" class="h-20 w-20"></div>Name
+											</label>
+											<input type="text" name="name" id="">
+										</div>
+										<div class="signup__single--option mb-4">
+											<label for="telephone" class="d-flex gap-1 align-items-center text-small signup__label">
+												<div class="icon"><img src="assets/icon/call_FILL0_wght400_GRAD0_opsz48.svg" class="h-20 w-20"></div>Telephone
+											</label>
+											<input type="phone" name="telephone" id="">
+										</div>
+										<div class="signup__single--option mb-4">
+											<label for="email" class="d-flex gap-1 align-items-cente text-small signup__label">
+												<div class="icon"><img src="assets/icon/mail_FILL0_wght400_GRAD0_opsz48.svg" class="h-20 w-20"></div>email
+											</label>
+											<input type="email" name="email" id="">
+										</div>
+										<div class="signup__single--option mb-4">
+											<label for="Password" class="d-flex gap-1 align-items-center text-small signup__label">
+												<div class="icon"><img src="assets/icon/lock_open_FILL0_wght400_GRAD0_opsz48.svg" class="h-20 w-20"></div>Password
+											</label>
+											<input type="password" name="Password" id="">
+											<span class="text-small secondary-color">Lorem ipsum dolor sit amet.</span>
+										</div>
+
+										<div class="signup__single--option mb-4 d-flex gap-2">
+											<input type="checkbox" name="" id="terms" class="signup__checkbox">
+											<label for="terms" class=" text-small">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero autem perspiciatis dolorem voluptates, ab sapiente optio fugiat perferendis possimus!
+											</label>
+										</div>
+										<div class="signup__single--option mt-4 d-flex gap-2">
+											<input type="checkbox" name="" id="accept" class="signup__checkbox">
+											<label for="accept" class=" text-small">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											</label>
+										</div>
+										<div class="signup-btn d-grid mt-5">
+											<a href="#" class="text-white radius-none btn color-primary border-2">Register</a>
+										</div>
+									</div>
+
+
+									
+								</form>
+							</div>
+						</div>
+						<!-- single package end -->
+					</div>
+				</div>
+			</div>
+			<!-- package area end -->
+
+			<!-- package screenshot area -->
+			<section class="screenshot screenshot-bg color-primary py-30">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="screenshot__text">
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+								<div class="screenshot__single">
+									<div class="icon text-white"><img src="assets/icon/tik-icon.svg" class="h-20 w-20 mr-5 img-filter" alt="">Forest manned gratis</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- package screenshot area end -->
+
+		</main>
+
+		<footer>
+			
+		</footer>
+
+		<script src="assets/js/Jquery-3.7.0.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.nice-select.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

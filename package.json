@@ -1,0 +1,15 @@
+{
+  "name": "pling",
+  "version": "1.0.0",
+  "description": "This is client project",
+  "main": "index.html",
+  "scripts": {
+  "sass-dev": "sass -i assets/scss/main-style.scss -o style.css -w",
+  "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "author": "Pling",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.64.2"
+  }
+}
