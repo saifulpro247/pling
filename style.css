@@ -156,7 +156,7 @@ body{
 .mobile_menus {
 	position: absolute;
 	right: 0;
-	top: 15%;
+	top: 11%;
 	width: 80%;
 	background-color: #fff;
 	padding: 25px 25px 25px 25px;
@@ -220,6 +220,10 @@ body{
 /* for mobile */
 .mobile-package{
 	display: none;
+}
+.package-type{
+	margin-top: 0;
+	margin-bottom: 50px;
 }
 
 
