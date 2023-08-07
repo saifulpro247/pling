@@ -7,6 +7,8 @@
         // mobile menu
         $("#menu-active").on("click", function(event) {
             event.stopPropagation();
+            $('#menu-active').removeClass('active');
+            $(this).addClass('active');
             $(".mobile_menus").slideToggle();
         });
         $(".has-menu").on("click", function(event) {
